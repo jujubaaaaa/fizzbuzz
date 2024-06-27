@@ -1,0 +1,40 @@
+:root {
+--color-text: white;
+--color-background: black;
+
+}
+
+body {
+background: var(--color-background);
+color: var(--color-text);
+
+}
+
+h1 {
+    font-family: "Permanent Marker";
+}
+
+p {
+    font-family: "Nanum Myeongjo";
+}
+
+button {
+    font-family: "Nanum Myeongjo";
+    width: 260px;
+    height: 20px;
+}
+
+.header, .info, .form {
+display: flex;
+direction: row;
+justify-content: center;
+border-color: #70e000;
+border-radius: 4px;
+border-width: 4px;
+}
+
+.info {
+line-height: 1;
+
+}
+button-container
